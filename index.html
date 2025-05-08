@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How are you feeling?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/hayflogo.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <img src="img/hayflogo.png" alt="" width="64" height="64">
+        <h2>HOW ARE YOU FEELING?</h2>
+    </nav>
+    <section class="main">
+        <!-- <input type="date"> -->
+        <div class="feeling">
+            <select name="feeling" id="morning">
+                <!-- Placeholder -->
+                 <option value="" disabled selected>How did you feel in the Morning?</option>
+                <option value="100">Excited</option>
+                <option value="80">Happy</option>
+                <option value="60">Neutral</option>
+                <option value="40">Anxious</option>
+                <option value="20">Sad</option>
+            </select>
+            <select name="feeling" id="afternoon">
+                <!-- Placeholder -->
+                 <option value="" disabled selected>How did you feel in the Afternoon?</option>
+                <option value="100">Excited</option>
+                <option value="80">Happy</option>
+                <option value="60">Neutral</option>
+                <option value="40">Anxious</option>
+                <option value="20">Sad</option>
+            </select>
+            <select name="feeling" id="evening">
+                <!-- Placeholder -->
+                 <option value="" disabled selected>How did you feel in the Evening?</option>
+                <option value="100">Excited</option>
+                <option value="80">Happy</option>
+                <option value="60">Neutral</option>
+                <option value="40">Anxious</option>
+                <option value="20">Sad</option>
+            </select>
+        </div>
+        <div class="calender">
+            
+        </div>
+        <button id="btn">Submit</button>
+        <div class="answer">
+            <h3 id="answer"></h3>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
